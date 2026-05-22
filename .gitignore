@@ -1,0 +1,49 @@
+# ============= 数据文件夹（不上传）=============
+images/
+labels/
+segmentation_masks/
+temp1/
+temp/
+
+# ============= 训练产物 =============
+runs/
+*.pt
+!best.pt          # 但允许 best.pt
+*.pth
+*.ckpt
+wandb/
+
+# ============= 虚拟环境 =============
+stomata_env/
+labeling_env/
+labelImg/
+venv/
+env/
+
+# ============= Python 缓存 =============
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# ============= IDE 配置 =============
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============= 系统文件 =============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============= 测试/临时输出 =============
+results/
+*.log
+*.tmp
+
+# ============= 文本备份文件（不上传）=============
+*.txt
+
+# ============= 大型预训练模型（自动下载，不上传）=============
+yolov8n-seg.pt

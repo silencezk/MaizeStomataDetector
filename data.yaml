@@ -1,0 +1,14 @@
+# YOLOv8 分割训练配置文件
+# 使用方法：请根据你的实际数据路径修改 train 和 val 的路径
+
+# 训练集图片路径（相对于此配置文件的位置）
+train: ./images/train
+
+# 验证集图片路径（相对于此配置文件的位置）
+val: ./images/val
+
+# 类别数量
+nc: 1
+
+# 类别名称（必须与 LabelMe 标注时的 label 名称一致）
+names: ['stomatal']
